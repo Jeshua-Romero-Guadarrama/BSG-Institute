@@ -146,8 +146,8 @@ def main():
     # =========================================================================
     # 6. VISUALIZACIONES
     # =========================================================================
-    # Crear carpeta 'resultados' si no existe
-    os.makedirs('resultados', exist_ok=True)
+    # Crear carpeta 'scripts/resultados' si no existe
+    os.makedirs('scripts/resultados', exist_ok=True)
 
     # -------------------------------------------------------------------------
     # 6.1 Nube de Palabras (Gráfico 1)
@@ -163,7 +163,7 @@ def main():
     plt.title('Nube de Palabras de Reseñas', fontsize=14)
 
     # Guardar figura
-    nombre_figura_1 = 'resultados/Nube de Palabras de Reseñas.png'
+    nombre_figura_1 = 'scripts/resultados/Nube de Palabras de Reseñas.png'
     plt.savefig(nombre_figura_1, bbox_inches='tight')
     print(f"[INFO] Se guardó la figura: {nombre_figura_1}")
     plt.close()
@@ -183,7 +183,7 @@ def main():
     plt.ylabel('Palabra', fontsize=12)
     plt.tight_layout()
 
-    nombre_figura_2 = 'resultados/Top 10 Palabras Más Repetidas en las Reseñas.png'
+    nombre_figura_2 = 'scripts/resultados/Top 10 Palabras Más Repetidas en las Reseñas.png'
     plt.savefig(nombre_figura_2, bbox_inches='tight')
     print(f"[INFO] Se guardó la figura: {nombre_figura_2}")
     plt.close()
@@ -220,7 +220,7 @@ def main():
     axes[1].tick_params(axis='x', rotation=0)
 
     plt.tight_layout()
-    nombre_figura_3 = 'resultados/Distribución de Calificaciones vs Distribución de Sentimientos.png'
+    nombre_figura_3 = 'scripts/resultados/Distribución de Calificaciones vs Distribución de Sentimientos.png'
     plt.savefig(nombre_figura_3, bbox_inches='tight')
     print(f"[INFO] Se guardó la figura: {nombre_figura_3}")
     plt.close()
@@ -234,7 +234,7 @@ def main():
     plt.xlabel('Calificación', fontsize=12)
     plt.ylabel('Votos Útiles', fontsize=12)
 
-    nombre_figura_4 = 'resultados/Relación entre Calificaciones y Votos Útiles.png'
+    nombre_figura_4 = 'scripts/resultados/Relación entre Calificaciones y Votos Útiles.png'
     plt.savefig(nombre_figura_4, bbox_inches='tight')
     print(f"[INFO] Se guardó la figura: {nombre_figura_4}")
     plt.close()

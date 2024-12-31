@@ -1,0 +1,9 @@
+# requirements.txt
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+transformers
+torch
+wordcloud

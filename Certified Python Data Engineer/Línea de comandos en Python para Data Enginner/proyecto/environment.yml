@@ -1,0 +1,17 @@
+# environment.yml
+name: sentiment_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - nltk
+  - pip
+  - pip:
+    - transformers
+    - torch
+    - wordcloud

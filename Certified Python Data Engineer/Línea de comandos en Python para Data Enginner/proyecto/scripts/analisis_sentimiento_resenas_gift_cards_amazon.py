@@ -52,7 +52,7 @@ def main():
     # =========================================================================
     # 2. CARGA DE DATOS
     # =========================================================================
-    ruta_jsonl = Path.cwd() / 'data' / 'Gift_Cards_reviews.jsonl'
+    ruta_jsonl = Path.cwd() / 'scripts' / 'data' / 'Gift_Cards_reviews.jsonl'
 
     try:
         df = pd.read_json(ruta_jsonl, lines=True, encoding='utf-8')

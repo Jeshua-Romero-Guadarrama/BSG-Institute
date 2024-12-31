@@ -18,6 +18,7 @@ proyecto/
 │   │   └── Nube de Palabras de Reseñas.png
 │   └── data/
 │       └── Gift_Cards_reviews.jsonl
+│
 ├── scripts/
 │   ├── analisis_sentimiento_resenas_gift_cards_amazon.py
 │   ├── resultados/
